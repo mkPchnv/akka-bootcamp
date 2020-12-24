@@ -182,3 +182,5 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/.vs
+/src/Unit-1/DoThis/.vs/WinTail/v16/TestStore/0
