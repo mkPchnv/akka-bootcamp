@@ -34,8 +34,7 @@ namespace WinTail
 
 			if (msg is string received && !string.IsNullOrEmpty(received) && String.Equals(received, ExitCommand, StringComparison.OrdinalIgnoreCase))
 			{
-				// shut down the system (acquire handle to system via
-				// this actors context)
+				// shut down the system (acquire handle to system via this actors context)
 				Context.System.Terminate();
 				return;
 			}
